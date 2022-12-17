@@ -41,7 +41,7 @@ func Show(c *gin.Context) {
 }
 
 func Create(c *gin.Context) {
-	fmt.Println("create index")
+	fmt.Println("create index2")
 }
 
 func Update(c *gin.Context) {
