@@ -17,7 +17,7 @@ func ConnectDatabase() {
 	}
 
 	//auto migrate file data.go
-	database.AutoMigrate(&informasi_toko{})
+	database.AutoMigrate(&Data{})
 
 	DB = database
 }
